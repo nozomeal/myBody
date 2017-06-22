@@ -31,44 +31,53 @@ class RecordingViewController: UIViewController {
     
     //それぞれのボタン
     @IBAction func one(_ sender: Any) {
-        calc(n: 1)
+        number=calc(n: 1)
+        inputLabel.text=String(number)
         
     }
     
     @IBAction func two(_ sender: Any) {
-        calc(n: 2)
+        number=calc(n: 2)
+        inputLabel.text=String(number)
     }
     
     @IBAction func three(_ sender: Any) {
-        calc(n:3)
+        number=calc(n:3)
+        inputLabel.text=String(number)
 
     }
     
     @IBAction func four(_ sender: Any) {
-        calc(n:4)
+        number=calc(n:4)
+        inputLabel.text=String(number)
     }
     
     @IBAction func five(_ sender: Any) {
-        calc(n:5)
+        number=calc(n:5)
+        inputLabel.text=String(number)
 
     }
     
     @IBAction func six(_ sender: Any) {
-       calc(n: 6)
+       number=calc(n: 6)
+        inputLabel.text=String(number)
 
     }
  
     @IBAction func seven(_ sender: Any) {
-        calc(n: 7)
+        number=calc(n: 7)
+        inputLabel.text=String(number)
     }
     
     @IBAction func eight(_ sender: Any) {
-        calc(n:8)
+        number=calc(n:8)
+        inputLabel.text=String(number)
 
     }
     
     @IBAction func nine(_ sender: Any) {
-        calc(n:9)
+        number=calc(n:9)
+        inputLabel.text=String(number)
 
     }
  
@@ -78,7 +87,9 @@ class RecordingViewController: UIViewController {
     }
     
     @IBAction func zero(_ sender: Any) {
-        calc(n: 0)
+        number=calc(n: 0)
+        dots=false
+        inputLabel.text=String(number)
     }
     
     @IBAction func dot(_ sender: Any) {
@@ -104,10 +115,10 @@ class RecordingViewController: UIViewController {
                 number=number*10+n
             }
         }else{
-            number=number+0.1*n
+            number=number+1/10*n
             }
         return number
-        inputLabel.text=String(number)
+        
     }
     
 }
