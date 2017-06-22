@@ -12,6 +12,9 @@
 		2D685F5E1EFA389700634A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D685F5C1EFA389700634A0B /* Main.storyboard */; };
 		2D685F601EFA389700634A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D685F5F1EFA389700634A0B /* Assets.xcassets */; };
 		2D685F631EFA389700634A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D685F611EFA389700634A0B /* LaunchScreen.storyboard */; };
+		2D685F6B1EFB805500634A0B /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D685F6A1EFB805500634A0B /* RecordingViewController.swift */; };
+		2D685F6D1EFB806500634A0B /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D685F6C1EFB806500634A0B /* GraphViewController.swift */; };
+		2D685F6F1EFB808C00634A0B /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D685F6E1EFB808C00634A0B /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2D685F5F1EFA389700634A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D685F621EFA389700634A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D685F641EFA389700634A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D685F6A1EFB805500634A0B /* RecordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		2D685F6C1EFB806500634A0B /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphViewController.swift; path = ../GraphViewController.swift; sourceTree = "<group>"; };
+		2D685F6E1EFB808C00634A0B /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				2D685F581EFA389700634A0B /* AppDelegate.swift */,
+				2D685F6C1EFB806500634A0B /* GraphViewController.swift */,
+				2D685F6A1EFB805500634A0B /* RecordingViewController.swift */,
+				2D685F6E1EFB808C00634A0B /* TimeLineViewController.swift */,
 				2D685F5A1EFA389700634A0B /* ViewController.swift */,
 				2D685F5C1EFA389700634A0B /* Main.storyboard */,
 				2D685F5F1EFA389700634A0B /* Assets.xcassets */,
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D685F5B1EFA389700634A0B /* ViewController.swift in Sources */,
+				2D685F6D1EFB806500634A0B /* GraphViewController.swift in Sources */,
+				2D685F6B1EFB805500634A0B /* RecordingViewController.swift in Sources */,
+				2D685F6F1EFB808C00634A0B /* TimeLineViewController.swift in Sources */,
 				2D685F591EFA389700634A0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
